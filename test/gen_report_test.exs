@@ -16,7 +16,7 @@ defmodule GenReportTest do
     test "When no filename was given, returns an error" do
       response = GenReport.build()
 
-      assert response == {:error, "Insira o nome de um arquivo"}
+      assert response == {:error, "Please, provide a file name"}
     end
   end
 end
